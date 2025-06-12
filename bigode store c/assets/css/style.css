@@ -1,0 +1,742 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Lexend", sans-serif;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+header {
+    height: 100vh;
+
+    background-image: url(../img/bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    & .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 92px;
+
+        & nav {
+            padding: 10px;
+            display: flex;
+            gap: 40px;
+        }
+
+        & .btns {
+            display: flex;
+            gap: 16px;
+
+            #primeiro {
+                background-color: blue;
+            }
+
+            & button {
+                color: aliceblue;
+                padding: 11px 16px;
+                border-radius: 8px;
+                background-color: transparent;
+
+            }
+
+        }
+
+    }
+
+    & .titulo-p {
+        width: 438px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 114px;
+        margin-left: 90px;
+        color: white;
+
+        & .get {
+            padding-top: 64px;
+
+            & button {
+                color: white;
+                width: 162px;
+                height: 59px;
+                border-radius: 8px;
+                background-color: blue;
+            }
+        }
+
+
+    }
+
+}
+
+
+main {
+    & .why-us {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 70px;
+        text-align: center;
+
+
+        & .titulo {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+
+        }
+
+        & .cards {
+            display: flex;
+            width: 916px;
+            margin-top: 60px;
+            justify-content: space-between;
+
+            & p {
+                margin-top: 21px;
+            }
+
+        }
+
+    }
+
+    & .Games-Genres {
+        margin-top: 80px;
+        height: 323px;
+        margin-left: 93px;
+        margin-right: 93px;
+
+        & .titulo {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        & .cards {
+            height: 169px;
+            display: flex;
+            margin-top: 24px;
+            justify-content: space-between;
+            gap: 10px;
+
+            & .card1 {
+                width: 150px;
+                color: white;
+                background-image: url(../img/valley.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 8px;
+
+            }
+
+            & .card2 {
+                width: 150px;
+                color: white;
+                background-image: url(../img/fps.svg);
+                background-position: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 8px;
+
+            }
+
+            & .card3 {
+                width: 150px;
+                color: white;
+                background-image: url(../img/rpg.svg);
+                background-position: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 8px;
+
+            }
+
+            & .card4 {
+                width: 150px;
+                color: white;
+                background-image: url(../img/puzzle.svg);
+                background-position: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 8px;
+
+            }
+
+            & .card5 {
+                width: 150px;
+                color: white;
+                background-image: url(../img/rp.svg);
+                background-position: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 8px;
+
+            }
+
+            & .card6 {
+                width: 150px;
+                color: white;
+                background-image: url(../img/Sports.svg);
+                background-position: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 8px;
+
+            }
+
+        }
+
+    }
+
+    & .best-seller {
+        margin-top: 30px;
+        margin-left: 93px;
+        margin-right: 93px;
+
+
+        & .cards {
+            margin-top: 18px;
+            display: flex;
+            gap: 16px;
+            justify-content: space-between;
+
+
+            & .card1 {
+                padding: 16px;
+                border: solid whitesmoke;
+                border-radius: 8px;
+                background-color: whitesmoke;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                & .valor {
+                    color: blue;
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 8px;
+                    margin-top: 17px;
+
+                    #descont {
+                        color: grey;
+                        text-decoration: line-through;
+                    }
+
+                    & span {
+                        background-color: #FC326F33;
+                        color: #FC326F;
+
+                    }
+                }
+            }
+
+            & .card2 {
+                padding: 16px;
+                border: solid whitesmoke;
+                border-radius: 8px;
+                background-color: whitesmoke;
+
+                & .valor {
+                    margin-top: 17px;
+                    color: blue;
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 8px;
+                    margin-top: 17px;
+
+                    & p {
+                        background-color: #D8DAFD;
+                        height: 30px;
+                        padding: 4px 10px;
+                        border-radius: 4px;
+                    }
+                }
+            }
+
+            & .card3 {
+                padding: 16px;
+                border: solid whitesmoke;
+                border-radius: 8px;
+                background-color: whitesmoke;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                & .valor {
+                    color: blue;
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 8px;
+                    margin-top: 17px;
+
+                    #descont {
+                        color: grey;
+                        text-decoration: line-through;
+                    }
+
+                    & span {
+                        background-color: #FC326F33;
+                        color: #FC326F;
+
+                    }
+                }
+            }
+
+            & .card4 {
+                padding: 16px;
+                border: solid whitesmoke;
+                border-radius: 8px;
+                background-color: whitesmoke;
+
+                & .valor {
+                    color: blue;
+                    margin-top: 17px;
+                }
+            }
+        }
+    }
+
+    & .Popular-Games {
+        margin-top: 100px;
+        margin-left: 93px;
+        margin-right: 93px;
+
+
+        & .titulo {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        & .cards {
+            margin-top: 24px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 60px;
+            justify-content: space-between;
+
+            & .card1 {
+                padding: 16px;
+                border: solid whitesmoke;
+                border-radius: 8px;
+                background-color: whitesmoke;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                & .valor {
+                    color: blue;
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 8px;
+                    margin-top: 17px;
+
+                    #descont {
+                        color: grey;
+                        text-decoration: line-through;
+                    }
+
+                    & span {
+                        background-color: #FC326F33;
+                        color: #FC326F;
+
+                    }
+                }
+            }
+
+
+            & .card2 {
+                padding: 16px;
+                border: solid whitesmoke;
+                border-radius: 8px;
+                background-color: whitesmoke;
+
+                & .valor {
+                    margin-top: 17px;
+                    color: blue;
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 8px;
+                    margin-top: 17px;
+
+                    & p {
+                        background-color: #D8DAFD;
+                        height: 30px;
+                        padding: 4px 10px;
+                        border-radius: 4px;
+                    }
+                }
+            }
+
+            & .card3 {
+                padding: 16px;
+                border: solid whitesmoke;
+                border-radius: 8px;
+                background-color: whitesmoke;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                & .valor {
+                    color: blue;
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 8px;
+                    margin-top: 17px;
+
+                    #descont {
+                        color: grey;
+                        text-decoration: line-through;
+                    }
+
+                    & span {
+                        background-color: #FC326F33;
+                        color: #FC326F;
+
+                    }
+                }
+            }
+
+
+            & .card4 {
+                padding: 16px;
+                border: solid whitesmoke;
+                border-radius: 8px;
+                background-color: whitesmoke;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                & .valor {
+                    color: blue;
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 8px;
+                    margin-top: 17px;
+
+                    #descont {
+                        color: grey;
+                        text-decoration: line-through;
+                    }
+
+                    & span {
+                        background-color: #FC326F33;
+                        color: #FC326F;
+
+                    }
+                }
+            }
+
+
+            & .card5 {
+                padding: 16px;
+                border: solid whitesmoke;
+                border-radius: 8px;
+                background-color: whitesmoke;
+
+                & .valor {
+                    color: blue;
+                    margin-top: 17px;
+                }
+            }
+
+            & .card6 {
+                padding: 16px;
+                border: solid whitesmoke;
+                border-radius: 8px;
+                background-color: whitesmoke;
+
+                & .valor {
+                    margin-top: 17px;
+                    color: blue;
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 8px;
+                    margin-top: 17px;
+
+                    & p {
+                        background-color: #D8DAFD;
+                        height: 30px;
+                        padding: 4px 10px;
+                        border-radius: 4px;
+                    }
+                }
+            }
+
+            & .card7 {
+                padding: 16px;
+                border: solid whitesmoke;
+                border-radius: 8px;
+                background-color: whitesmoke;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                & .valor {
+                    color: blue;
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 8px;
+                    margin-top: 17px;
+
+                    #descont {
+                        color: grey;
+                        text-decoration: line-through;
+                    }
+
+                    & span {
+                        background-color: #FC326F33;
+                        color: #FC326F;
+
+                    }
+                }
+            }
+
+
+            & .card8 {
+                padding: 16px;
+                border: solid whitesmoke;
+                border-radius: 8px;
+                background-color: whitesmoke;
+
+                & .valor {
+                    color: blue;
+                    margin-top: 17px;
+                }
+            }
+
+
+        }
+
+    }
+
+    & .Coming-Soon {
+        margin-top: 150px;
+        color: white;
+        background-color: black;
+        padding-bottom: 80px;
+
+        & button {
+            background: none;
+            width: 144px;
+            height: 40px;
+            border-radius: 8px;
+            border: solid 1px #F5F4F9;
+            color: white;
+        }
+
+        & .titulo {
+            padding-top: 50px;
+            margin-left: 93px;
+            margin-right: 93px;
+
+        }
+
+        & .conteiner {
+            margin-top: 24px;
+            margin-left: 93px;
+            margin-right: 93px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+
+            & .lado-esquerdo {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                & .card1 {
+                    background-image: url(../img/cod.svg);
+                    width: 633px;
+                    height: 400px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: baseline;
+                    padding-left: 24px;
+                    gap: 24px;
+
+                }
+
+                & .card2 {
+                    background-image: url(../img/nba20k.svg);
+                    width: 633px;
+                    height: 400px;
+                }
+            }
+
+            & .lado-direito {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                & .card1 {
+                    background-image: url(../img/fifa23.svg);
+                    width: 447px;
+                    height: 262px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: baseline;
+                    padding-left: 24px;
+                    gap: 24px;
+
+
+                }
+
+                & .card2 {
+                    background-image: url(../img/re4.svg);
+                    width: 447px;
+                    height: 262px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: baseline;
+                    padding-left: 24px;
+                    gap: 24px;
+                }
+
+                & .card3 {
+                    background-image: url(../img/alien.svg);
+                    width: 447px;
+                    height: 262px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: baseline;
+                    padding-left: 24px;
+                    gap: 24px;
+                }
+            }
+        }
+
+    }
+
+    & .user-review {
+        height: 704px;
+
+        & .titulo {
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 16px;
+        }
+
+        & .cards {
+            margin-left: 147px;
+            margin-right: 147px;
+            display: flex;
+            margin-top: 51px;
+            align-items: center;
+            justify-content: space-between;
+            gap: 27px;
+
+            & .card1 {
+                margin-top: 18px;
+                margin-bottom: 18px;
+                padding: 32px 24px;
+                border-radius: 8px;
+                text-align: center;
+                background-color: #F5F4F9;
+
+            }
+
+            & .card2 {
+                width: 450px;
+                padding: 32px 24px;
+                border-radius: 8px;
+                text-align: center;
+                background-color: #F5F4F9;
+            }
+
+            & .card3 {
+                margin-top: 18px;
+                margin-bottom: 18px;
+
+                padding: 32px 24px;
+                border-radius: 8px;
+                text-align: center;
+                background-color: #F5F4F9;
+            }
+        }
+
+    }
+}
+
+
+footer {
+    color: #F5F4F9;
+    background-color: black;
+    margin-top: 50px;
+    height: 369px;
+
+    & .bar {
+        justify-content: space-between;
+        padding-top: 50px;
+        margin-left: 92px;
+        margin-right: 92px;
+        display: flex;
+        gap: 192px;
+#logo{
+    padding-bottom: 150px;
+}
+        & .menu {
+
+            & .titulo {
+                padding-bottom: 24px;
+            }
+
+            & .content {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+            }
+        }
+
+        & .resources {
+            & .titulo {
+                padding-bottom: 24px;
+            }
+
+            & .content {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+            }
+        }
+
+        & .follow {
+            & .titulo {
+                padding-bottom: 24px;
+
+            }
+        }
+
+    }
+
+& .coppy{
+    margin-top: 90px;
+    display: flex;
+   
+    justify-content: center;
+}
+
+}
